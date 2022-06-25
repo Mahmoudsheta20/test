@@ -1,1 +1,1 @@
-aws s3 cp --recursive --acl public-read ./build s3://mahmoudsheta/
+aws s3 cp --recursive --acl bucket-owner-full-control ./build s3://sheta/
