@@ -17,6 +17,6 @@
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
-        "deploy": "chmod +x bin/deploy.sh && bin/deploy.sh"
+        "deploy": "aws s3 cp ./build s3://mahmoudsheta/"
     }
 }
